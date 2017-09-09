@@ -6,3 +6,7 @@ dependencies:
     - sudo apt-get install libxss-dev
   override:
     - yarn install
+
+test:
+  override:
+    - yarn test
