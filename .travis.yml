@@ -9,5 +9,4 @@ install:
   - yarn install
 
 install:
-  - env
   - yarn test
