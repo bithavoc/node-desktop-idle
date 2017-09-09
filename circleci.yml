@@ -3,4 +3,4 @@ machine:
     version: 0.7.9
 dependencies:
   pre:
-    - sudo apt-get install xorg
+    - sudo apt-get install libxss-dev
