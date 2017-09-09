@@ -3,3 +3,9 @@ sudo: required
 language: node_js
 node_js:
   - "7"
+
+install:
+  - npm install
+
+install:
+  - npm test

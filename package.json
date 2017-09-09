@@ -9,14 +9,15 @@
     "tapes": "^4.1.0"
   },
   "watch": {
-    "test": {
+    "test_watch": {
       "patterns": ["src", "test"],
       "extensions": "js,mm,gyp,h,cc",
       "legacyWatch": true
     }
   },
   "scripts": {
-    "test": "npm install && tape test/*.js",
+    "test_watch": "npm install && npm test",
+    "test": "node test/main_test.js",
     "watch": "npm-watch"
   }
 }
