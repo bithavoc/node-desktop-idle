@@ -1,10 +1,17 @@
+os:
+  - linux
+  - osx
+
 sudo: false
 language: node_js
 node_js:
   - "7"
+addons:
+  apt:
+    packages:
+      - libxss-dev
 
 install:
-  - sudo apt-get install libxss-dev
   - rm -rf node_modules
   - npm install -g yarn
   - yarn install
