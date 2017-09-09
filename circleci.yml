@@ -2,6 +2,7 @@ machine:
   node:
     version: 0.7.9
 dependencies:
-  override:
+  pre:
     - sudo apt-get install libxss-dev
+  override:
     - yarn install
