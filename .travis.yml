@@ -4,10 +4,9 @@ node_js:
   - "7"
 
 install:
+  - sudo apt-get install libxss-dev
   - rm -rf node_modules
   - npm install -g yarn
   - yarn install
   - yarn install --dev
-
-install:
   - yarn test
