@@ -3,6 +3,39 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "Node/Electron module to detect idle desktop user (OSX, Windows and Linux)",
+  "bugs": {
+    "email": "im@bithavoc.io",
+    "url": "https://github.com/bithavoc/node-desktop-idle/issues"
+  },
+  "keywords": [
+    "idle",
+    "desktop",
+    "electron"
+  ],
+  "homepage": "https://github.com/bithavoc/node-desktop-idle",
+  "licenses": [
+   {
+     "type": "MIT",
+     "url": "https://github.com/bithavoc/node-desktop-idle/blob/master/LICENSE"
+   }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bithavoc/node-desktop-idle.git"
+  },
+  "os": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "engines": {
+    "node": ">=7.9.0",
+    "electron": ">=1.7.5"
+  },
   "devDependencies": {
     "eslint": "^4.6.1",
     "npm-watch": "^0.2.0",
