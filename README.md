@@ -30,4 +30,4 @@ yarn test
 
 ### License
 
-> MIT - Bithavoc<im@bithavoc.io>
+> `MIT - Bithavoc<im@bithavoc.io>`
