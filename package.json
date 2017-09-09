@@ -33,8 +33,7 @@
     "x64"
   ],
   "engines": {
-    "node": ">=7.9.0",
-    "electron": ">=1.7.5"
+    "node": ">=7.9.0"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
