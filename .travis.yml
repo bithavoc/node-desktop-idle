@@ -8,4 +8,5 @@ install:
   - npm install
 
 install:
+  - env
   - npm test
