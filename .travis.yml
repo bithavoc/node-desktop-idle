@@ -5,8 +5,9 @@ node_js:
   - "7"
 
 install:
-  - npm install
+  - npm install -g yarn
+  - yarn install
 
 install:
   - env
-  - npm test
+  - yarn test
