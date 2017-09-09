@@ -1,0 +1,22 @@
+{
+  "name": "desktop-idle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "npm-watch": "^0.2.0",
+    "tapes": "^4.1.0"
+  },
+  "watch": {
+    "test": {
+      "patterns": ["src", "test"],
+      "extensions": "js,mm,gyp,h,cc",
+      "legacyWatch": true
+    }
+  },
+  "scripts": {
+    "test": "npm install && tape test/*.js",
+    "watch": "npm-watch"
+  }
+}
