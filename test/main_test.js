@@ -1,8 +1,9 @@
-var test = require('tape');
+var vows = require('vows');
+var assert = require('assert');
 var desktopIdle = require('../');
-
-test('getIdleTime()', (assert) => {
-  var idle = desktopIdle.getIdleTime()
-  assert.ok(idle > 0, 'should return idle time');
-  assert.end();
-});
+vows.describe('getIdleTime()').addBatch({
+  'return value': () => {
+    var idle = desktopIdle.getIdleTime()  
+    assert.ok(idle > 0, 'should return idle time');
+  }
+}).run();
