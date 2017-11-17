@@ -27,10 +27,12 @@
   "os": [
     "windows",
     "linux",
-    "darwin"
+    "darwin",
+    "win32"
   ],
   "cpu": [
-    "x64"
+    "x64",
+    "ia32"
   ],
   "engines": {
     "node": ">=7.9.0"
