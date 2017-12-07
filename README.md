@@ -22,6 +22,12 @@ var desktopIdle = require('desktop-idle');
 console.log(desktopIdle.getIdleTime());
 ```
 
+### Linux Requirements
+
+X server development package and pkg-config are required:
+
+`apt install libxss-dev pkg-config`
+
 ### Test
 
 ```

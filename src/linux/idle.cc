@@ -8,5 +8,8 @@ double desktop_idle_get_time() {
   }
   XScreenSaverInfo *info = XScreenSaverAllocInfo();
   XScreenSaverQueryInfo(dpy, DefaultRootWindow(dpy), info);
-  return info->idle / 1000; // to seconds
+  unsigned long idle = info->idle;
+  XFree(info);
+  XCloseDisplay(dpy);
+  return idle / 1000; // to seconds
 }
