@@ -1,6 +1,6 @@
 {
   "name": "desktop-idle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "license": "MIT",
   "description": "Node/Electron module to detect idle desktop user (OSX, Windows and Linux)",
