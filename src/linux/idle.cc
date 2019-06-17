@@ -11,5 +11,5 @@ double desktop_idle_get_time() {
   unsigned long idle = info->idle;
   XFree(info);
   XCloseDisplay(dpy);
-  return idle / 1000; // to seconds
+  return idle / 1000.0; // to seconds
 }
