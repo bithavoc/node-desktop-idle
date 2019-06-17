@@ -3,7 +3,7 @@
 > [![Build Status](https://travis-ci.org/bithavoc/node-desktop-idle.svg?branch=master)](https://travis-ci.org/bithavoc/node-desktop-idle)
 > [![Monthly Downloads](https://img.shields.io/npm/dm/desktop-idle.svg)](https://www.npmjs.com/package/desktop-idle)
 
-Node/Electron module to detect idle desktop users (OSX, Windows and Linux).
+Node/Electron module to detect idle desktop users (OSX, Windows, Linux and FreeBSD).
 
 **Stable | Actively maintained | Pull Requests Welcome**
 
