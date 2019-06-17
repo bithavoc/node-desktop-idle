@@ -15,10 +15,10 @@
   ],
   "homepage": "https://github.com/bithavoc/node-desktop-idle",
   "licenses": [
-   {
-     "type": "MIT",
-     "url": "https://github.com/bithavoc/node-desktop-idle/blob/master/LICENSE"
-   }
+    {
+      "type": "MIT",
+      "url": "https://github.com/bithavoc/node-desktop-idle/blob/master/LICENSE"
+    }
   ],
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
     "windows",
     "linux",
     "darwin",
-    "win32"
+    "win32",
+    "freebsd"
   ],
   "engines": {
     "node": ">=7.9.0"
