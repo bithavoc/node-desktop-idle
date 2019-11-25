@@ -29,7 +29,8 @@
     "linux",
     "darwin",
     "win32",
-    "freebsd"
+    "freebsd",
+    "openbsd"
   ],
   "engines": {
     "node": ">=7.9.0"
