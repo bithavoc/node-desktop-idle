@@ -1,9 +1,9 @@
 {
   "name": "desktop-idle",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "license": "MIT",
-  "description": "Node/Electron module to detect idle desktop user (OSX, Windows and Linux)",
+  "description": "Node/Electron module to detect idle desktop users(users away from keyboard) in macOS, Windows, Linux, FreeBSD and OpenBSD",
   "bugs": {
     "email": "im@bithavoc.io",
     "url": "https://github.com/bithavoc/node-desktop-idle/issues"
@@ -11,7 +11,9 @@
   "keywords": [
     "idle",
     "desktop",
-    "electron"
+    "electron",
+    "away",
+    "afk"
   ],
   "homepage": "https://github.com/bithavoc/node-desktop-idle",
   "licenses": [

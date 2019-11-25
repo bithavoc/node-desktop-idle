@@ -3,7 +3,7 @@
 > [![Build Status](https://travis-ci.org/bithavoc/node-desktop-idle.svg?branch=master)](https://travis-ci.org/bithavoc/node-desktop-idle)
 > [![Monthly Downloads](https://img.shields.io/npm/dm/desktop-idle.svg)](https://www.npmjs.com/package/desktop-idle)
 
-Node/Electron module to detect idle desktop users (OSX, Windows, Linux and FreeBSD).
+Node/Electron module to detect idle desktop users (macOS, Windows, Linux, FreeBSD and OpenBSD).
 
 **Stable | Actively maintained | Pull Requests Welcome**
 
@@ -19,7 +19,7 @@ yarn add desktop-idle
 ### Cross-Platform Support
 * **Windows:** [GetLastInputInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646302(v=vs.85).aspx), see `src/win/idle.cc`.
 * **Mac(OSX):** [CoreGraphics Event Source](https://developer.apple.com/documentation/coregraphics/1408790-cgeventsourcesecondssincelasteve), see `src/mac/idle.cc`.
-* **Linux:** [X Screensaver](https://linux.die.net/man/3/xscreensaverqueryinfo), see `src/linux/idle.cc`.
+* **Linux & FreeBSD & OpenBSD:** [X Screensaver](https://linux.die.net/man/3/xscreensaverqueryinfo), see `src/linux/idle.cc`.
 
 ### Usage
 ```
